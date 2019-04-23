@@ -116,9 +116,9 @@
 
                     <div class="row mt-5">
                         <div class="col-12">
-                            <xsl:for-each select="Bibliographie/livre">
+                            <xsl:for-each select="Bibliographie/article">
                                 <h3 class="mt-3 mb-3">
-                                    Le Livre "<xsl:value-of select="titre"></xsl:value-of>"
+                                    L'article "<xsl:value-of select="titre"></xsl:value-of>"
                             </h3>
                             <table class="table table-bordered">
                                 <thead class="thead-dark">
