@@ -151,21 +151,21 @@
                                                 <ul>
                                                     <li>
                                                         <i>
-                                                                Editeur :
+                                                                nom Journal :
                                                         </i>
-                                                        <xsl:value-of select = "infosEdition/editeur"/>
+                                                        <xsl:value-of select = "infosEdition/nomJournal"/>
                                                     </li>
                                                         <li>
                                                             <i>
-                                                                Lieu Edition :
+                                                                pages :
                                                             </i>
-                                                            <xsl:value-of select = "infosEdition/lieuEdition"/>
+                                                            <xsl:value-of select = "infosEdition/pages"/>
                                                         </li>
                                                         <li>
                                                             <i>
-                                                            Lieu Impression :
+                                                                anneePublication :
                                                             </i>
-                                                            <xsl:value-of select = "infosEdition/lieuEdition"/>
+                                                            <xsl:value-of select = "infosEdition/anneePublication"/>
                                                         </li>
                                                         <li>                                                       
                                                             <i>
@@ -173,13 +173,6 @@
                                                             </i>
                                                             <xsl:value-of select = "infosEdition/ISBN"/>
                                                         </li>
-                                                        <li>                                             
-                                                            <i>
-                                                                Avis :
-                                                            </i>
-                                                            <xsl:value-of select = "avis"/>
-                                                        </li>
-
 
                                                 </ul>
                                                 </p>
