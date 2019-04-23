@@ -47,8 +47,12 @@
                                             <td>
                                                 <xsl:for-each select="auteur">
                                                     <p>
-                                                        <xsl:value-of select=".">
-                                                        </xsl:value-of>
+                                                        <ul>
+                                                            <li>
+                                                                <xsl:value-of select=".">
+                                                                </xsl:value-of>
+                                                            </li>
+                                                        </ul>
                                                     </p>
                                                 </xsl:for-each>
                                             </td>
