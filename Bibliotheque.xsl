@@ -90,6 +90,13 @@
                                                             </i>
                                                             <xsl:value-of select = "infosEdition/lieuEdition"/>
                                                         </li>
+                                                        </li>
+                                                                                                                <li>
+                                                            <i>
+                                                                ISBN :
+                                                            </i>
+                                                            <xsl:value-of select = "infosEdition/ISBN"/>
+                                                        </li>
                                                         
                                                     </ul>
                                                 </p>
