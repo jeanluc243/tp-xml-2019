@@ -62,7 +62,7 @@
                                                         <ul>
                                                             <li>
                                                                 <xsl:value-of select=".">
-                                                                </xsl:value-of>
+                                                                </xsl:value-of>pages
                                                             </li>
                                                         </ul>
                                                     </p>
