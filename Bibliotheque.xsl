@@ -37,7 +37,7 @@
                                         <tr>
                                             <th scope="col">Nom Livre</th>
                                             <th scope="col">Auteur(s)</th>
-                                            <th scope="col">Tome(s)</th>
+                                            <th scope="col">Tome(s) - pages</th>
                                             <th scope="col">Info(s) Edition</th>
                                         </tr>
                                     </thead>
@@ -46,6 +46,18 @@
                                             <td class="font-weight-bold"><xsl:value-of select="titre"></xsl:value-of></td>
                                             <td>
                                                 <xsl:for-each select="auteur">
+                                                    <p>
+                                                        <ul>
+                                                            <li>
+                                                                <xsl:value-of select=".">
+                                                                </xsl:value-of>
+                                                            </li>
+                                                        </ul>
+                                                    </p>
+                                                </xsl:for-each>
+                                            </td>
+                                            <td>
+                                                <xsl:for-each select="tomes/tome">
                                                     <p>
                                                         <ul>
                                                             <li>
