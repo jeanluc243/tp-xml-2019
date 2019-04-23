@@ -68,6 +68,32 @@
                                                     </p>
                                                 </xsl:for-each>
                                             </td>
+                                            <td>
+                                                <p>
+                                                    <ul>
+                                                        <li>
+                                                            <i>
+                                                                Editeur :
+                                                            </i>
+                                                            <xsl:value-of select = "infosEdition/editeur"/>
+                                                        </li>
+                                                                                                                <li>
+                                                            <i>
+                                                                Lieu Edition :
+                                                            </i>
+                                                            <xsl:value-of select = "infosEdition/lieuEdition"/>
+                                                        </li>
+                                                        </li>
+                                                                                                                <li>
+                                                            <i>
+                                                                Lieu Impression :
+                                                            </i>
+                                                            <xsl:value-of select = "infosEdition/lieuEdition"/>
+                                                        </li>
+                                                        
+                                                    </ul>
+                                                </p>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
