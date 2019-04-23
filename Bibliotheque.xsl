@@ -97,6 +97,13 @@
                                                             </i>
                                                             <xsl:value-of select = "infosEdition/ISBN"/>
                                                         </li>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                            <i>
+                                                                Avis :
+                                                            </i>
+                                                            <xsl:value-of select = "avis"/>
+                                                        </li>
                                                         
                                                     </ul>
                                                 </p>
