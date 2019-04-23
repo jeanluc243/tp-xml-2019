@@ -123,9 +123,9 @@
                             <table class="table table-bordered">
                                 <thead class="thead-dark">
                                     <tr>
-                                        <th scope="col">Nom Livre</th>
+                                        <th scope="col">Nom Article</th>
                                         <th scope="col">Auteur(s)</th>
-                                        <th scope="col">Tome(s) - pages</th>
+                                        <!-- <th scope="col">Tome(s) - pages</th> -->
                                         <th scope="col">Info(s) Edition</th>
                                     </tr>
                                 </thead>
@@ -141,18 +141,6 @@
                                                         <li>
                                                             <xsl:value-of select=".">
                                                             </xsl:value-of>
-                                                        </li>
-                                                    </ul>
-                                                </p>
-                                            </xsl:for-each>
-                                        </td>
-                                        <td>
-                                            <xsl:for-each select="tomes/tome">
-                                                <p>
-                                                    <ul>
-                                                        <li>
-                                                            <xsl:value-of select=".">
-                                                            </xsl:value-of>pages
                                                         </li>
                                                     </ul>
                                                 </p>
