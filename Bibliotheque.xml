@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<?xml-stylesheet type="text/xsl" href= "Bibliographie.xsl" ?>
+
+<Bibliographie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:SchemaLocation="Bibliographie.xsd">
+    
+    <livre>
+        <titre>Tuto pour les nuls</titre>
+        <auteur >
+           	David 
+        </auteur>
+        <auteur>
+         	Mike
+        </auteur>
+        
+        <tomes>
+            <tome id="1">
+                <pages>243</pages>
+            </tome>
+        </tomes>
+        <infosEdition>
+            <editeur></editeur>
+            <lieuEdition></lieuEdition>
+            <lieuImpression></lieuImpression>
+            <ISBN></ISBN>
+        </infosEdition>
+        <avis></avis>
+    </livre>
+
+    <article>
+        <titre></titre>
+        <auteur>
+            <nom></nom>
+        </auteur>
+        <infosPublication>
+            <nomJournal></nomJournal>
+            <pages></pages>
+            <anneePublication></anneePublication>
+            <numeroJournal></numeroJournal>
+        </infosPublication>
+        <avis></avis>
+    </article>
+
+</Bibliographie>
