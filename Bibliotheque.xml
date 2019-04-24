@@ -29,22 +29,42 @@
         <avis>Apprendre tout en une semaine seulement</avis>
     </livre>
 
-
-
     <!-- Livre 2 -->
 
+    <livre>
+        <titre>Avalez le crapeau</titre>
+
+        <auteur >Brian Tracy</auteur>
+        <auteur>Richard Goffrields</auteur>
+
+        <tomes>
+            <tome id="1">
+                <pages>443</pages>
+            </tome>
+        </tomes>
+        <infosEdition>
+            <editeur>IXA</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Marseille</lieuImpression>
+            <ISBN>000345</ISBN>
+        </infosEdition>
+        <avis>Apprendre tout en une semaine seulement</avis>
+    </livre>
+
+
+    <!-- Article  -->
     <article>
-        <titre></titre>
+        <titre>Comment manger rapidement</titre>
         <auteur>
-            <nom></nom>
+            <nom>Brian Tracy</nom>
         </auteur>
         <infosPublication>
-            <nomJournal></nomJournal>
-            <pages></pages>
-            <anneePublication></anneePublication>
-            <numeroJournal></numeroJournal>
+            <nomJournal>Le monde</nomJournal>
+            <pages>12</pages>
+            <anneePublication>2019</anneePublication>
+            <numeroJournal>002/889</numeroJournal>
         </infosPublication>
-        <avis></avis>
+        <avis>Lu de 2 million de fois </avis>
     </article>
 
 </Bibliographie>

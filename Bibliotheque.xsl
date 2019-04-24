@@ -23,6 +23,10 @@
 
                     <div class="divider my-5"></div>
                     <!-- Partie Livre -->
+                    <hr class="divider" />
+                    <h1 class="font-weight-bold my-3 display-3">les Livres</h1>
+                    <hr class="divider" />
+                    
                     <div class="row mt-5">
                         <div class="col-12">
                             <xsl:for-each select="Bibliographie/livre">
@@ -113,6 +117,9 @@
                     </div>
 
                     <!-- adding new page config  -->
+                    <hr class="divider" />
+                    <h1 class="font-weight-bold my-3 display-3">les Articles</h1>
+                    <hr class="divider" />
 
                     <div class="row mt-5">
                         <div class="col-12">
