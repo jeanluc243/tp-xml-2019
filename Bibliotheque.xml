@@ -9,24 +9,27 @@
     <livre>
         <titre>Tuto pour les nuls</titre>
 
-        <auteur >David </auteur>
-        <auteur>Mike</auteur>
+        <auteur >David Kalonji</auteur>
+        <auteur>Mike Mozilla</auteur>
 
         <tomes>
             <tome id="1">
                 <pages>243</pages>
             </tome>
+            <tome id="2">
+                <pages>353</pages>
+            </tome>
         </tomes>
         <infosEdition>
-            <editeur></editeur>
-            <lieuEdition></lieuEdition>
-            <lieuImpression></lieuImpression>
-            <ISBN></ISBN>
+            <editeur>La borne</editeur>
+            <lieuEdition>Lubumbashi</lieuEdition>
+            <lieuImpression>Lubumbashi</lieuImpression>
+            <ISBN>000345</ISBN>
         </infosEdition>
-        <avis></avis>
+        <avis>Apprendre tout en une semaine seulement</avis>
     </livre>
 
-    
+
 
     <!-- Livre 2 -->
 
