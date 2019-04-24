@@ -4,16 +4,14 @@
 
 <Bibliographie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:SchemaLocation="Bibliographie.xsd">
-    
+
+    <!-- Livre 1  -->
     <livre>
         <titre>Tuto pour les nuls</titre>
-        <auteur >
-           	David 
-        </auteur>
-        <auteur>
-         	Mike
-        </auteur>
-        
+
+        <auteur >David </auteur>
+        <auteur>Mike</auteur>
+
         <tomes>
             <tome id="1">
                 <pages>243</pages>
@@ -27,6 +25,10 @@
         </infosEdition>
         <avis></avis>
     </livre>
+
+    
+
+    <!-- Livre 2 -->
 
     <article>
         <titre></titre>
